@@ -252,11 +252,11 @@ color:#07b4c5;
 
 
 .courses img,
-.course img {
+.course img,.our_team img  {
     transition: .5s;
 }
 
 .courses a:hover img,
-.course:hover img {
+.course:hover img ,.our_team:hover img {
     transform: scale(1.1);
 }
