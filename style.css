@@ -1,0 +1,262 @@
+@import url('https://fonts.cdnfonts.com/css/hunter-squared');
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.navigationBar {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfa;
+  margin: 0px;
+  /*box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3),0 0 40px rgb(0, 0, 0,0.1) inset;*/
+}
+
+.navItems {
+  border: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-left: auto;
+}
+
+.LogoP  h2{
+  color: #07b4c5;
+  margin-left: 50px;
+}
+
+.navItems a {
+  margin-right: 10px;
+  color: #000;
+  font-size: 15px;
+  
+}
+
+.navItems a:hover {
+  color: #07b4c5;
+  text-decoration: none;
+  
+}
+
+.join a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#home {
+  color: #07b4c5;
+  text-decoration: none;
+}
+
+.join {
+  background-color: #07b4c5;
+  height: 75px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.join a {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+/* hero */
+.hero{
+  margin: 0px 0px 0px 0px;
+  width:100%;
+
+  height:100vh;
+
+
+}
+.slider{
+  width: 100%;
+  width: 100vh;
+  position: absolute;
+  margin: 0px;
+}
+.slider img{
+  width: 1519px;
+  height: 730px;
+}
+
+#slideImg2{
+  display: none;
+}
+
+.btn button{
+  height: 50px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.overlay{
+  width: 100%;
+  height: 730px;
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  position: absolute;
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  
+}
+.overlay img{
+  height: 100%;
+  width: 100%;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.item1{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#pp{
+  font-size: 36px;
+}
+#title {
+  color: #07b4c5;
+  font-size: 18px;
+  
+}
+
+#subtitle{
+  font-size: 36px;
+  color: #fff;
+
+}
+#parag{
+  color: #fff;
+}
+.sliders_btn{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.prev ,.next{
+  background-color: transparent;
+border-color: #fff;
+color: #fff;
+height: 30px;
+width: 30px;
+margin: 5px;
+
+}
+.prev:hover ,.next:hover ,i:hover{
+border-color: #07b4c5;
+color:#07b4c5;
+}
+#read{
+  color: #fff;
+  background-color: #07b4c5;
+  border: 0;
+}
+#read:hover{
+  background-color: #0b6169;
+}
+/* hero 
+.hero{
+  margin: 0px 0px 0px 0px;
+  background: rgba(0, 0, 0);
+  height: 720px;
+
+}
+.slider{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#s1 {
+  opacity: 0.5;
+  background-image: url(carousel-2.jpg);
+  background-repeat: no-repeat;
+  height: 720px;
+  background-size: cover;
+}
+
+#s2 {
+  background: url(carousel-1.jpg);
+  opacity: 0.5;
+  display: none;
+  background-repeat: no-repeat;
+  height: 720px;
+  background-size: cover;
+}
+.slidesText{
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}  
+
+
+.slidesText h3 {
+  color: #07b4c5;
+  font-size: 18px;
+  
+}
+
+.slidesText h1 ,.slidesText p {
+  color: #fff;
+  
+}
+*/@keyframes play {
+  from { background-position:    0px; }
+    to { background-position: -500px; }
+}
+.lesService {
+  background: var(--primary);
+  transition: .5s;
+  background-color: #f0fbfc;
+}
+
+.lesService:hover {
+  margin-top: -10px;
+  background-color: #06bbcc  ;
+}
+
+.lesService * {
+  transition: .5s;
+}
+
+.lesService:hover * {
+  color: #f0fbfc;
+}
+
+
+
+
+.courses img,
+.course img {
+    transition: .5s;
+}
+
+.courses a:hover img,
+.course:hover img {
+    transform: scale(1.1);
+}
