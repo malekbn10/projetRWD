@@ -6,6 +6,7 @@ body {
 
 
 }
+/*navbar*/
 
 .navigationBar {
   border: none;
@@ -16,7 +17,6 @@ body {
   margin: 0px;
   /*box-shadow: 0 5px 9px rgba(0, 0, 0, 0.3),0 0 40px rgb(0, 0, 0,0.1) inset;*/
 }
-
 .navItems {
   border: none;
   font-family: "Font Awesome 5 Free";
@@ -42,6 +42,24 @@ body {
   
 }
 
+@media (max-width: 990px) {
+  .navigationBar    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navigationBar .navItems a {
+
+
+    display: block;
+    padding: 15px 5px;  }
+    .join{
+      visibility: hidden;
+    }
+}
+/*endnavbar*/
 .join a:hover {
   color: #000;
   text-decoration: none;
@@ -75,6 +93,16 @@ a {
 
 
 /* hero */
+@media (max-width: 768px) {
+  .hero {
+      position: relative;
+      min-height: 500px;
+  }
+  
+  .hero .slider img {
+      width: 100%;
+  }
+}
 .hero{
   margin: 0px 0px 0px 0px;
   width:100%;
